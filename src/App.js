@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <section>
-      <Nav variant="dark" defaultActiveKey="/home" class="nav">
+      <Nav variant="pills" defaultActiveKey="/home" class="nav">
   <Nav.Item>
     <Nav.Link href="/home">Home</Nav.Link>
   </Nav.Item>
