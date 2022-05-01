@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import Form from 'react-bootstrap/Form'
+import Nav from 'react-bootstrap/Nav'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import bootstrap from 'bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
